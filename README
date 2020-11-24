@@ -1,31 +1,23 @@
-Project 1: Deterministic Finite Automata
-
- Author: Adel Touati
- Semester: Fall 2019
- Class: CS 361
-
-
 # Overview
 
 This is implementation of DFA, where five tuple sets are stored by DFA class.
 The driver class which contain main will take file and run test while creating the DFA.
 
 # Compiling and Using
+
 From the top directory
-To compile the program: javac fa/dfa/DFADriver.java
 
-To run the after compiling the program: java fa.dfa.DFADriver ./tests/<test file name>
+To compile the program: 
+```
+javac fa/dfa/DFADriver.java
 
+```
 
-## Discussion
+To run the after compiling the program: 
+```
+java fa.dfa.DFADriver ./tests/<test file name>
 
-After downloading the zip file and setting up the project in Eclipse, I started implementing DFA and DFAState at the same time by going from a class to another figuring out what I will need in the interface
+```
 
-accepts and complement methods took more time then I was expecting specially complement I had to go meet with the TA to finish implementing it and spend another hour at home working on debuging it because the test was showing dfac was not correct after debugging test 1 was still showing dfac is not correct.
-
-## Testing
-After runnig text files test provided I compared with the output was provided in the project description, everything was correct after fixing dfac for test 2 and 3 but did not have time to fix test 1 unfortonatly.
-
-## Sources used
-I looked at this link to have an idea wich set interface I shoud use.
-https://dzone.com/articles/hashset-vs-treeset-vs
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
